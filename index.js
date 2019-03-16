@@ -25,6 +25,6 @@ function iLoveTheBeatles (num) {
     arr.push('I love the Beatles!')
     myLength--
   }
-  while (myLength > 0)
+  while (myLength > 1)
   return arr
 }
