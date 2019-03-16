@@ -19,12 +19,11 @@ function johnLennonFacts (facts) {
 }
 
 function iLoveTheBeatles (num) {
-  var myLength = Math.abs(15-num)
   var arr = []
   do {
     arr.push('I love the Beatles!')
     myLength--
   }
-  while (myLength > 1)
+  while (num < 15)
   return arr
 }
